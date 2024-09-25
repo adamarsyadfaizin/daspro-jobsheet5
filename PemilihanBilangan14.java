@@ -6,16 +6,13 @@ public class PemilihanBilangan14 {
 
         System.out.print("Masukkan Sebuah Angka: ");
         int angka = sc.nextInt();
-        if ((angka % 2==0) && (angka >=0))
+        if (angka % 2==0)
         {
             System.out.println("Angka " + angka + " termasuk bilangan genap");
         }
-        else if ((angka % 2 != 0) && (angka >= 0)) {
-            System.out.println("Angka " + angka + " termasuk bilangan ganjil");
-        }
         else
         {
-            System.out.println("Angka " + angka + " negatif");
+            System.out.println("Angka " + angka + " termasuk bilangan ganjil");
         }
         
 
